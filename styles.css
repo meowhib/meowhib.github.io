@@ -49,7 +49,7 @@ li > a {
 }
 .imgContainer {
   /* This is not my picture, I'll change it later*/
-  background-image: url("images/myImg.png");
+  background-image: url("images/myImg.jpg");
   background-size: cover;
   height: 80px;
   width: 80px;
