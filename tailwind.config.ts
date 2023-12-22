@@ -78,6 +78,9 @@ module.exports = {
       aspectRatio: {
         "9/16": "9 / 16",
       },
+      fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
