@@ -10,9 +10,9 @@ export default function Hero() {
             Hi 👋<br></br>I&apos;m Mouhib,<br></br>Full stack web developer
           </h1>
           <p className="text-xl text-gray-500">
-            I have been helping businesses and startups<br></br>build
-            professional websites to improve visitors into clients for the last
-            5 years.
+            I have been helping businesses and startups
+            <br className="sm:block md:hidden"></br>build professional websites
+            to improve visitors into clients for the last 5 years.
           </p>
           <Button variant="default" size="lg">
             Let&apos;s talk

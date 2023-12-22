@@ -3,11 +3,11 @@ export default function Work() {
     <div className="mx-auto max-w-7xl p-6 space-y-20 mt-24">
       <h1 className="text-4xl font-bold text-center">My latest work</h1>
       <div className="flex flex-col space-y-24">
-        <div className="grid grid-cols-8 gap-x-6">
+        <div className="grid grid-cols-1 md:grid-cols-8 gap-x-6">
           <div className="col-span-3 py-6 space-y-4">
             <h1 className="text-2xl font-bold">BagageVoyage</h1>
             <p className="text-lg">
-              A project in collaboration with x where they are responsive for
+              A project in collaboration with x where they are responsible for
               the marketing of the website and bringing users in.
             </p>
             <p className="text-lg">
@@ -19,7 +19,7 @@ export default function Work() {
               have their items shipped to other countries for cheaper than what
               they can find else where.
             </p>
-            <p className="text-lg">I was responsive for:</p>
+            <p className="text-lg">I was responsible for:</p>
             <ul className="list-disc list-inside">
               <li>Design</li>
               <li>Development (Frontend and backend)</li>
@@ -36,7 +36,7 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="grid grid-cols-8 gap-x-6">
+        <div className="grid grid-cols-1 md:grid-cols-8 gap-x-6">
           <div className="col-span-3 py-6 space-y-4">
             <h1 className="text-2xl font-bold">Eatourist</h1>
             <p className="text-lg">
@@ -46,9 +46,9 @@ export default function Work() {
             </p>
             <p className="text-lg">
               Eatourist also offers restaurant owners the management of
-              different restaurants of having managers for each restaurant and
-              see advanced analytics like the number of visitors, number of
-              orders and revenue that came from the app.
+              different restaurants, assign different managers for each
+              restaurant and see advanced analytics like the number of visitors,
+              number of orders and revenue that came from the app.
             </p>
             <p className="text-lg">
               👇 click here to check the website yourself
@@ -63,7 +63,7 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="grid grid-cols-8 gap-x-6">
+        <div className="grid grid-cols-1 md:grid-cols-8 gap-x-6">
           <div className="col-span-3 py-6 space-y-4">
             <h1 className="text-2xl font-bold">Udefin</h1>
             <p className="text-lg">
