@@ -3,14 +3,12 @@ import { Button } from "./ui/button";
 
 export default function Hero() {
   return (
-    <div className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8 py-40">
+    <div className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8 py-32">
       <div className="md:flex flex-row w-full justify-start">
-        <div className="w-full space-y-12">
-          <div>
-            <h1 className="font-bold text-5xl">Hi 👋</h1>
-            <h1 className="font-bold text-5xl">I&apos;m Mouhib,</h1>
-            <h1 className="font-bold text-5xl">Full stack web developer</h1>
-          </div>
+        <div className="w-full space-y-8">
+          <h1 className="font-bold text-5xl">
+            Hi 👋<br></br>I&apos;m Mouhib,<br></br>Full stack web developer
+          </h1>
           <p className="text-xl text-gray-500">
             I have been helping businesses and startups<br></br>build
             professional websites to improve visitors into clients for the last

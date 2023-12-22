@@ -66,9 +66,11 @@ export default function Services() {
   return (
     <div className="mx-auto max-w-7xl grid grid-flow-row grid-cols-3 gap-x-6 p-6">
       {services.map((service: any) => (
-        <div key={service.title} className="space-y-4">
-          <h1 className="text-2xl font-bold">{service.title}</h1>
-          <p className="text-gray-700">{service.subtitle}</p>
+        <div key={service.title} className="space-y-16">
+          <div className="space-y-4">
+            <h1 className="text-2xl font-bold">{service.title}</h1>
+            <p className="text-gray-700">{service.subtitle}</p>
+          </div>
           <div className="space-y-4">
             {service.features.map((feature: any) => (
               <div key={feature.name} className="flex space-x-4">
