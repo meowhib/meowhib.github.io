@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 
 export default function About() {
   return (
-    <div className="space-y-12">
+    <div className="space-y-12" id="about">
       <div className="space-y-4">
         <h1 className="text-2xl font-bold">About me</h1>
         <p className="text-lg">

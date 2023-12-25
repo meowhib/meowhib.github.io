@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 const navigation = [
-  { name: "Work", href: "#" },
-  { name: "About", href: "#" },
+  { name: "Work", href: "#work" },
+  { name: "About", href: "#about" },
 ];
 
 export default function Navbar() {
@@ -34,9 +35,11 @@ export default function Navbar() {
               </a>
             ))}
           </div>
-          <Button variant="default" size="sm">
-            Contact
-          </Button>
+          <form action="mailto:mouhibenns@gmail.com" method="get">
+            <Button variant="default" size="sm" type="submit">
+              Contact
+            </Button>
+          </form>
         </div>
       </nav>
     </header>

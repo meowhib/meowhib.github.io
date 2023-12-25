@@ -14,9 +14,11 @@ export default function Hero() {
             <br className="hidden md:block"></br> build professional websites to
             improve visitors into clients for the last 5 years.
           </p>
-          <Button variant="default" size="lg">
-            Let&apos;s talk
-          </Button>
+          <form action="mailto:mouhibenns@gmail.com" method="get">
+            <Button variant="default" size="lg">
+              Let&apos;s talk
+            </Button>
+          </form>
         </div>
         {/* <div className="w-full justify-center mx-auto">
           <Image

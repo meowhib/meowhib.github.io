@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Work() {
   return (
-    <div className="mx-auto max-w-7xl p-6 space-y-20 mt-24">
+    <div className="mx-auto max-w-7xl p-6 space-y-20 mt-24" id="work">
       <h1 className="text-4xl font-bold text-center">My latest work</h1>
       <div className="flex flex-col space-y-24">
         <div className="grid grid-cols-1 md:grid-cols-8 gap-x-6">
