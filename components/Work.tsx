@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Work() {
   return (
     <div className="mx-auto max-w-7xl p-6 space-y-20 mt-24">
@@ -30,9 +32,30 @@ export default function Work() {
             </p>
           </div>
           <div className="col-span-5 w-full aspect-square grid grid-cols-2 gap-4">
-            <div className="rounded-lg bg-gray-200 col-span-2"></div>
-            <div className="rounded-lg bg-gray-200 "></div>
-            <div className="rounded-lg bg-gray-200 "></div>
+            <div className="rounded-lg bg-gray-200 col-span-2 border-2 border-gray-200 relative">
+              <Image
+                className="rounded-lg object-cover object-top"
+                src="/bagagevoyage-screenshot.jpg"
+                alt="bagagevoyage.com screenshot"
+                fill
+              />
+            </div>
+            <div className="rounded-lg bg-gray-200 border-2 border-gray-200 relative">
+              <Image
+                className="rounded-lg object-cover object-center"
+                src="/bagagevoyage-logo.jpg"
+                alt="bagagevoyage.com logo"
+                fill
+              />
+            </div>
+            <div className="rounded-lg bg-white border-2 border-gray-200 relative">
+              <Image
+                className="rounded-lg object-contain object-center"
+                src="/bagagevoyage-auth.png"
+                alt="bagagevoyage.com logo"
+                fill
+              />
+            </div>
           </div>
         </div>
 
@@ -54,16 +77,59 @@ export default function Work() {
               👇 click here to check the website yourself
             </p>
           </div>
-          <div className="col-span-5 w-full aspect-square grid grid-cols-6 gap-4">
-            <div className="rounded-lg bg-gray-200 col-span-3"></div>
-            <div className="rounded-lg bg-gray-200 col-span-3"></div>
-            <div className="rounded-lg bg-gray-200 col-span-2"></div>
-            <div className="rounded-lg bg-gray-200 col-span-2"></div>
-            <div className="rounded-lg bg-gray-200 col-span-2"></div>
+          <div className="col-span-5 w-full aspect-square grid grid-cols-8 grid-rows-2 gap-4">
+            <div className="rounded-lg bg-gray-200 col-span-4 border-gray-200 border-2 relative">
+              <Image
+                className="rounded-lg object-cover object-center"
+                src="/eatourist-logo.png"
+                alt="eatourist logo"
+                fill
+              />
+            </div>
+            <div className="rounded-lg bg-white col-span-4 row-span-2 border-gray-200 border-2 relative">
+              <Image
+                className="rounded-lg object-contain object-center"
+                src="/eatourist-menu-arabic.jpg"
+                alt="eatourist logo"
+                fill
+              />
+            </div>
+            <div className="rounded-lg bg-white col-span-2 relative border-gray-200 border-2 ">
+              <Image
+                className="rounded-lg object-contain object-center"
+                src="/eatourist-menu-english.jpg"
+                alt="eatourist menu screenshot"
+                fill
+              />
+            </div>
+            {/* <div className="rounded-lg bg-white col-span-2 relative border-gray-200 border-2 ">
+              <Image
+                className="rounded-lg object-contain object-center"
+                src="/eatourist-menu-arabic.jpg"
+                alt="eatourist menu screenshot"
+                fill
+              />
+            </div>
+            <div className="rounded-lg bg-white col-span-2 relative border-gray-200 border-2 ">
+              <Image
+                className="rounded-lg object-contain object-center"
+                src="/eatourist-menu-russian.jpg"
+                alt="eatourist menu screenshot"
+                fill
+              />
+            </div> */}
+            <div className="rounded-lg bg-white col-span-2 relative border-gray-200 border-2 ">
+              <Image
+                className="rounded-lg object-contain object-center"
+                src="/eatourist-menu-chinese.jpg"
+                alt="eatourist menu screenshot"
+                fill
+              />
+            </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-8 gap-x-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-8 gap-x-6">
           <div className="col-span-3 py-6 space-y-4">
             <h1 className="text-2xl font-bold">Udefin</h1>
             <p className="text-lg">
@@ -81,11 +147,11 @@ export default function Work() {
             </p>
           </div>
           <div className="col-span-5 w-full aspect-square grid grid-cols-2 gap-4">
-            <div className="rounded-lg bg-gray-200 col-span-2"></div>
-            <div className="rounded-lg bg-gray-200 "></div>
-            <div className="rounded-lg bg-gray-200 "></div>
+            <div className="rounded-lg bg-gray-200 col-span-2 border-gray-200 border-2"></div>
+            <div className="rounded-lg bg-gray-200 border-gray-200 border-2"></div>
+            <div className="rounded-lg bg-gray-200 border-gray-200 border-2"></div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

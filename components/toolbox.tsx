@@ -61,12 +61,12 @@ const toolbox = [
     url: "https://www.postgresql.org/",
     logo: "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
   },
-  {
-    name: "Nginx",
-    description: "Load balancer",
-    url: "https://www.nginx.com/",
-    logo: "https://cdn.worldvectorlogo.com/logos/nginx-1.svg",
-  },
+  // {
+  //   name: "Nginx",
+  //   description: "Load balancer",
+  //   url: "https://www.nginx.com/",
+  //   logo: "https://cdn.worldvectorlogo.com/logos/nginx-1.svg",
+  // },
 ];
 
 export default function Toolbox() {

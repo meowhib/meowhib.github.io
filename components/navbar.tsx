@@ -8,7 +8,7 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <header className="backdrop-blur-xl bg-white/40 fixed top-0 left-0 right-0">
+    <header className="backdrop-blur-xl bg-white/40 fixed top-0 left-0 right-0 z-10 border-b-2 border-gray-100">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6"
         aria-label="Global"

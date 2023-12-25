@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function Hero() {
   return (
-    <div className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8 py-32">
+    <div className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8 py-48">
       <div className="md:flex flex-row w-full justify-start">
         <div className="w-full space-y-8">
           <h1 className="font-bold text-5xl">
@@ -11,8 +11,8 @@ export default function Hero() {
           </h1>
           <p className="text-xl text-gray-500">
             I have been helping businesses and startups
-            <br className="sm:block md:hidden"></br>build professional websites
-            to improve visitors into clients for the last 5 years.
+            <br className="hidden md:block"></br> build professional websites to
+            improve visitors into clients for the last 5 years.
           </p>
           <Button variant="default" size="lg">
             Let&apos;s talk
