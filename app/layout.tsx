@@ -6,6 +6,13 @@ import { fontSans } from "@/fonts";
 export const metadata: Metadata = {
   title: "Mouhib Ben nasser",
   description: "Mouhib Ben Nasser's personal website",
+  openGraph: {
+    type: "website",
+    locale: "en_IE",
+    url: "https://mouhib.me",
+    siteName: "Mouhib Ben nasser",
+    images: ["https://meowhibs.vercel.app/og-image.png"],
+  },
 };
 
 export default function RootLayout({
