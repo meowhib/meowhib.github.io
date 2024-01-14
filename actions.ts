@@ -7,7 +7,9 @@ export async function addSubscriber(email: string) {
   try {
     await sql`INSERT INTO newslettersubscribers (email) VALUES (${email})`;
     console.log("Subscriber added successfully");
+    return { status: "success" };
   } catch (error) {
     console.log(error);
+    return { status: "error" };
   }
 }

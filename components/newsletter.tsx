@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
@@ -21,6 +22,8 @@ const formSchema = z.object({
 });
 
 export default function NewsletterForm() {
+  const [status, setStatus] = useState<"idle" | "error" | "success">("idle");
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -30,7 +33,12 @@ export default function NewsletterForm() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     console.log("values", values);
-    await addSubscriber(values.email);
+
+    const subscription = await addSubscriber(values.email);
+
+    if (subscription) {
+      setStatus("success");
+    }
   }
 
   return (
@@ -49,6 +57,25 @@ export default function NewsletterForm() {
                 Don&apos;t worry, I won&apos;t spam you. I hate spam as much as
                 you do.
               </FormDescription>
+              {(status === "success" && (
+                <div
+                  className="bg-green-100 border-l-4 border-green-500 text-green-700 p-4"
+                  role="alert"
+                >
+                  <p className="font-bold">Success</p>
+                  <p>You are now subscribed to the newsletter.</p>
+                </div>
+              )) ||
+                (status === "error" && (
+                  <div
+                    className="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4"
+                    role="alert"
+                  >
+                    <p className="font-bold">Error</p>
+                    <p>Something wrong happened.</p>
+                  </div>
+                ))}
+
               <FormMessage />
             </FormItem>
           )}
