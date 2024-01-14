@@ -1,5 +1,4 @@
-import { Button } from "./ui/button";
-import { Input } from "@/components/ui/input";
+import NewsletterForm from "./newsletter";
 
 export default function About() {
   return (
@@ -21,10 +20,7 @@ export default function About() {
           I share insights, thoughts and new discoveries every week through my
           newsletter
         </p>
-        <form className="flex flex-row space-x-4">
-          <Input placeholder="Your email" />
-          <Button variant="default">Subscribe</Button>
-        </form>
+        <NewsletterForm />
       </div>
     </div>
   );
