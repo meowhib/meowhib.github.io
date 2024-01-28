@@ -16,13 +16,17 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { Loader2 } from "lucide-react";
 
 const formSchema = z.object({
   email: z.string().min(1).max(255),
 });
 
 export default function NewsletterForm() {
-  const [status, setStatus] = useState<"idle" | "error" | "success">("idle");
+  const [status, setStatus] = useState<
+    "idle" | "error" | "success" | "pending"
+  >("idle");
+  const pending = status === "pending";
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -34,6 +38,7 @@ export default function NewsletterForm() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     console.log("values", values);
 
+    setStatus("pending");
     const subscription = await addSubscriber(values.email);
 
     if (subscription.status === "success") {
@@ -82,7 +87,10 @@ export default function NewsletterForm() {
             </FormItem>
           )}
         />
-        <Button type="submit">Subscribe</Button>
+        <Button type="submit" aria-disabled={pending} disabled={pending}>
+          {pending && <Loader2 className="animate-spin mr-2" size={16} />}
+          Subscribe
+        </Button>
       </form>
     </Form>
   );
