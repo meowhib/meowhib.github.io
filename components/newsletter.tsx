@@ -36,8 +36,10 @@ export default function NewsletterForm() {
 
     const subscription = await addSubscriber(values.email);
 
-    if (subscription) {
+    if (subscription.status === "success") {
       setStatus("success");
+    } else {
+      setStatus("error");
     }
   }
 
