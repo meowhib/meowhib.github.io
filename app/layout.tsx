@@ -5,14 +5,17 @@ import { fontSans } from "@/fonts";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: "Mouhib Ben nasser",
+  title: "Mouhib Ben nasser | Meowhib",
   description: "Mouhib Ben Nasser's personal website",
+  metadataBase: new URL("https://mouhib.com"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
   openGraph: {
-    type: "website",
-    locale: "en_IE",
-    url: "https://mouhib.me",
-    siteName: "Mouhib Ben nasser",
-    images: ["https://meowhibs.vercel.app/og-image.png"],
+    images: "/opengraph-image.png",
   },
 };
 

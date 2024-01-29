@@ -35,11 +35,13 @@ export default function Navbar() {
               </a>
             ))}
           </div>
-          <form action="mailto:mouhibenns@gmail.com" method="get">
-            <Button variant="default" size="sm" type="submit">
-              Contact
-            </Button>
-          </form>
+          <div>
+            <Link href={"mailto:mouhibenns@gmail.com?subject=Contact"}>
+              <Button variant="default" size="sm" type="submit">
+                Contact
+              </Button>
+            </Link>
+          </div>
         </div>
       </nav>
     </header>

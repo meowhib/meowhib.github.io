@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -14,11 +15,13 @@ export default function Hero() {
             <br className="hidden md:block"></br> build professional websites to
             improve visitors into clients for the last 5 years.
           </p>
-          <form action="mailto:mouhibenns@gmail.com" method="get">
-            <Button variant="default" size="lg">
-              Let&apos;s talk
-            </Button>
-          </form>
+          <div>
+            <Link href={"mailto:mouhibenns@gmail.com?subject=Contact"}>
+              <Button variant="default" size="lg">
+                Let&apos;s talk
+              </Button>
+            </Link>
+          </div>
         </div>
         {/* <div className="w-full justify-center mx-auto">
           <Image
