@@ -1,0 +1,93 @@
+{
+  "navbar": {
+    "work": "Travail",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Salut 👋,\nJe suis Mouhib\nDéveloppeur web full stack",
+    "description": "J'ai aidé des entreprises et des start-ups à construire des sites web professionnels pour\nconvertir les visiteurs en clients au cours des 5 dernières années.",
+    "cta": "Prenez contact"
+  },
+  "services": {
+    "service_1": {
+      "title": "Développement Frontend",
+      "subtitle": "Je m'assure que vos sites web sont bien conçus et ont un aspect impeccable sur toutes les tailles d'écran, comme les smartphones, les tablettes et les ordinateurs",
+      "feature_1": {
+        "name": "Conception UX UI",
+        "description": "Conceptions de sites web modernes et bien réalisées"
+      },
+      "feature_2": {
+        "name": "Responsive",
+        "description": "Sites web qui fonctionnent sur tous types d'écrans"
+      }
+    },
+    "service_2": {
+      "title": "Développement Backend",
+      "subtitle": "J'utilise les dernières technologies pour rendre les sites web rapides, sans failles et convertir les visiteurs en clients",
+      "feature_1": {
+        "name": "Performance",
+        "description": "Sites web réactifs et incroyablement rapides ⚡"
+      },
+      "feature_2": {
+        "name": "Sécurisé",
+        "description": "Je prends la sécurité des sites web au sérieux et ne livre que ce qui fonctionne"
+      }
+    },
+    "service_3": {
+      "title": "DevOps",
+      "subtitle": "Je m'occupe de tout ce qui se passe en coulisses, des noms de domaine aux serveurs, pour garantir peu ou pas d'arrêts",
+      "feature_1": {
+        "name": "Hébergement",
+        "description": "Montrez votre travail sur Internet !"
+      },
+      "feature_2": {
+        "name": "Noms de domaine",
+        "description": "Je peux m'occuper des noms de domaine et de tout ce qui se passe en coulisses"
+      }
+    }
+  },
+  "work": {
+    "my_latest_work": "Mes derniers travaux",
+    "click_here_to_check_the_website_yourself": "👇 cliquez ici pour vérifier le site vous-même",
+    "eatourist": {
+      "title": "Eatourist",
+      "state": "Phase initiale",
+      "paragraph_1": "Un projet parallèle d'une application web qui aide les restaurants à attirer plus de clients dans des endroits touristiques, à numériser leurs menus et à prendre des commandes et des paiements directement depuis l'application web.",
+      "paragraph_2": "Eatourist offre également aux propriétaires de restaurants la gestion de différents établissements, l'attribution de différents gestionnaires pour chaque restaurant et la visualisation d'analyses avancées telles que le nombre de visiteurs, le nombre de commandes et le chiffre d'affaires provenant de l'application.",
+      "link_text": "Eatourist",
+      "link_description": "Numérisation et traduction de menus pour les restaurants"
+    },
+    "bagagevoyage": {
+      "title": "BagageVoyage",
+      "state": "Acquisition d'utilisateurs",
+      "paragraph_1": "Un projet en collaboration avec ",
+      "paragraph_2": " où ils sont responsables du marketing du site et de l'acquisition d'utilisateurs.",
+      "paragraph_3": "La plateforme permet aux transporteurs indépendants de publier leurs services et d'obtenir des clients potentiels.",
+      "paragraph_4": "C'est également un endroit pour que les gens trouvent ces types de services afin d'expédier leurs articles vers d'autres pays à moindre coût que ce qu'ils peuvent trouver ailleurs.",
+      "responsible_for": "J'ai été responsable de :",
+      "responsible_for_1": "Conception",
+      "responsible_for_2": "Développement (Frontend et Backend)",
+      "responsible_for_3": "Hébergement et surveillance",
+      "link_text": "BagageVoyage",
+      "link_description": "Services de transport entre la Tunisie et l'Europe"
+    }
+  },
+  "toolbox": {
+    "title": "Ma boîte à outils"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "paragraph_1": "Développeur web full stack basé en Tunisie. Je conçois et développe des sites web depuis 5 ans où j'ai livré des sites web professionnels de toutes sortes.",
+    "paragraph_2": "Je suis en quête d'équilibre entre voyager et travailler.",
+    "join_my_newsletter": "Rejoignez ma newsletter",
+    "join_my_newsletter_description": "Je partage des idées, des réflexions et de nouvelles découvertes chaque semaine via ma newsletter",
+    "your_email": "Votre email",
+    "dont_worry_i_hate_spam_too": "Ne vous inquiétez pas, je ne vous enverrai pas de spam. Je déteste le spam autant que vous.",
+    "subscribe": "S'abonner",
+    "success": "Succès !",
+    "success_description": "Vous êtes maintenant abonné à la newsletter.",
+    "error": "Erreur !",
+    "error_description": "Une erreur s'est produite. Veuillez réessayer."
+  }
+}

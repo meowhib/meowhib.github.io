@@ -1,0 +1,93 @@
+{
+  "navbar": {
+    "work": "Arbeiten",
+    "about": "Über mich",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Hi 👋,\nIch bin Mouhib\nFull Stack Webentwickler",
+    "description": "Ich helfe Unternehmen und Startups seit 5 Jahren dabei, professionelle Websites zu erstellen, um Besucher in Kunden zu verwandeln.",
+    "cta": "Kontakt aufnehmen"
+  },
+  "services": {
+    "service_1": {
+      "title": "Frontend-Entwicklung",
+      "subtitle": "Ich sorge dafür, dass Ihre Websites gut gestaltet sind und auf allen Bildschirmgrößen wie Smartphones, Tablets und Computern makellos aussehen.",
+      "feature_1": {
+        "name": "UX UI Design",
+        "description": "Gut gemachte und moderne Website-Designs"
+      },
+      "feature_2": {
+        "name": "Responsive",
+        "description": "Websites, die auf allen Arten von Bildschirmen funktionieren"
+      }
+    },
+    "service_2": {
+      "title": "Backend-Entwicklung",
+      "subtitle": "Ich verwende die neuesten Technologien, um Websites unglaublich schnell zu laden, ohne Fehler zu arbeiten und Besucher zu Kunden zu konvertieren.",
+      "feature_1": {
+        "name": "Leistung",
+        "description": "Flinke und unglaublich schnelle Websites ⚡"
+      },
+      "feature_2": {
+        "name": "Sicherheit",
+        "description": "Ich nehme die Sicherheit von Websites ernst und liefere nur das, was funktioniert."
+      }
+    },
+    "service_3": {
+      "title": "DevOps",
+      "subtitle": "Ich kümmere mich um alles Komplexe, was hinter den Kulissen passiert, von Domainnamen bis zu Servern, um minimale Ausfallzeiten zu garantieren.",
+      "feature_1": {
+        "name": "Hosting",
+        "description": "Zeigen Sie Ihre Arbeit dem Internet!"
+      },
+      "feature_2": {
+        "name": "Domainnamen",
+        "description": "Ich kann mich um die Domainnamen und alles dahinter kümmern."
+      }
+    }
+  },
+  "work": {
+    "my_latest_work": "Meine neueste Arbeit",
+    "click_here_to_check_the_website_yourself": "👇 Klicken Sie hier, um die Website selbst zu überprüfen",
+    "eatourist": {
+      "title": "Eatourist",
+      "state": "Frühstadium",
+      "paragraph_1": "Ein Nebenprojekt einer Webanwendung, die Restaurants in touristischen Gebieten hilft, mehr Kunden anzuziehen, ihre Menüs zu digitalisieren und Bestellungen sowie Zahlungen direkt über die Webanwendung entgegenzunehmen.",
+      "paragraph_2": "Eatourist bietet Restaurantbesitzern auch die Verwaltung verschiedener Restaurants, die Zuweisung verschiedener Manager für jedes Restaurant und erweiterte Analysen wie die Anzahl der Besucher, die Anzahl der Bestellungen und den Umsatz, der durch die App generiert wurde.",
+      "link_text": "Eatourist",
+      "link_description": "Menüdigitalisierung und Übersetzung für Restaurants"
+    },
+    "bagagevoyage": {
+      "title": "BagageVoyage",
+      "state": "Nutzer gewinnen",
+      "paragraph_1": "Ein Projekt in Zusammenarbeit mit ",
+      "paragraph_2": " die für das Marketing der Website und die Gewinnung von Nutzern verantwortlich sind.",
+      "paragraph_3": "Die Plattform gibt unabhängigen Transportunternehmern die Möglichkeit, ihre Dienstleistungen zu veröffentlichen und potenzielle Kunden zu gewinnen.",
+      "paragraph_4": "Dies ist auch ein Ort für Menschen, diese Art von Dienstleistungen zu finden, um ihre Artikel kostengünstiger in andere Länder versenden zu lassen als anderswo.",
+      "responsible_for": "Ich war verantwortlich für:",
+      "responsible_for_1": "Design",
+      "responsible_for_2": "Entwicklung (Frontend und Backend)",
+      "responsible_for_3": "Hosting und Überwachung",
+      "link_text": "BagageVoyage",
+      "link_description": "Transportdienstleistungen zwischen Tunesien & Europa"
+    }
+  },
+  "toolbox": {
+    "title": "Mein Werkzeugkasten"
+  },
+  "about": {
+    "title": "Über mich",
+    "paragraph_1": "Ein Full Stack Webentwickler aus Tunesien. Ich gestalte und entwickle seit 5 Jahren Websites, bei denen ich professionelle Websites aller Art geliefert habe.",
+    "paragraph_2": "Ich befinde mich auf der Reise, das Gleichgewicht zwischen Reisen und Arbeiten zu finden.",
+    "join_my_newsletter": "Abonnieren Sie meinen Newsletter",
+    "join_my_newsletter_description": "Ich teile jede Woche Einblicke, Gedanken und neue Entdeckungen durch meinen Newsletter.",
+    "your_email": "Deine E-Mail",
+    "dont_worry_i_hate_spam_too": "Keine Sorge, ich werde dich nicht belästigen. Ich hasse Spam genauso wie du.",
+    "subscribe": "Abonnieren",
+    "success": "Erfolg!",
+    "success_description": "Du bist jetzt für den Newsletter angemeldet.",
+    "error": "Fehler!",
+    "error_description": "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
+  }
+}

@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./ui/button";
 
-const navigation = [
-  { name: "Work", href: "#work" },
-  { name: "About", href: "#about" },
-];
+export default function Navbar({ dict }: { dict: any }) {
+  const navigation = [
+    { name: dict?.navbar.work, href: "#work" },
+    { name: dict?.navbar.about, href: "#about" },
+  ];
 
-export default function Navbar() {
   return (
     <header className="backdrop-blur-xl bg-white/40 fixed top-0 left-0 right-0 z-10 border-b-2 border-gray-100">
       <nav
@@ -38,7 +38,7 @@ export default function Navbar() {
           <div>
             <Link href={"mailto:contact@meowhib.com?subject=Talk"}>
               <Button variant="default" size="sm" type="submit">
-                Contact
+                {dict?.navbar?.contact}
               </Button>
             </Link>
           </div>

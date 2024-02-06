@@ -1,0 +1,93 @@
+{
+  "navbar": {
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi 👋,\nI'm Mouhib\nFull stack web developer",
+    "description": "I have been helping businesses and startups build professional websites to\nimprove visitors into clients for the last 5 years.",
+    "cta": "Get in touch"
+  },
+  "services": {
+    "service_1": {
+      "title": "Frontend development",
+      "subtitle": "I ensure your websites are well designed and look impeccable across all screen sizes like smartphones, tablets and computers",
+      "feature_1": {
+        "name": "UX UI Design",
+        "description": "Well done and modern website designs"
+      },
+      "feature_2": {
+        "name": "Responsive",
+        "description": "Websites that work on all kinds of screens"
+      }
+    },
+    "service_2": {
+      "title": "Backend development",
+      "subtitle": "I use the latest technologies to make websites load blazingly fast, work with no failures and convert visitors to clients",
+      "feature_1": {
+        "name": "Performance",
+        "description": "Snappy and blazingly fast websites ⚡"
+      },
+      "feature_2": {
+        "name": "Secure",
+        "description": "I take security of websites seriously and only deliver what works"
+      }
+    },
+    "service_3": {
+      "title": "DevOps",
+      "subtitle": "I take care of all the complex stuff that happen behind the hood, from domain names to servers to guarantee little to no down times",
+      "feature_1": {
+        "name": "Hosting",
+        "description": "Show your work to the internet!"
+      },
+      "feature_2": {
+        "name": "Domain names",
+        "description": "I can take care of the domain names and everything behind the hood"
+      }
+    }
+  },
+  "work": {
+    "my_latest_work": "My latest work",
+    "click_here_to_check_the_website_yourself": "👇 click here to check the website yourself",
+    "eatourist": {
+      "title": "Eatourist",
+      "state": "Early stage",
+      "paragraph_1": "A side project of a web application that helps restaurants bring in more clients in touristic places, digitize their menus and take orders and payments right from the web application.",
+      "paragraph_2": "Eatourist also offers restaurant owners the management of different restaurants, assign different managers for each restaurant and see advanced analytics like the number of visitors, number of orders and revenue that came from the app.",
+      "link_text": "Eatourist",
+      "link_description": "Menu digitization and translation for restaurants"
+    },
+    "bagagevoyage": {
+      "title": "BagageVoyage",
+      "state": "Acquiring users",
+      "paragraph_1": "A project in collaboration with ",
+      "paragraph_2": " where they are responsible for the marketing of the website and bringing users in.",
+      "paragraph_3": "The platform give independent transporters the ability to post their services and get potential clients.",
+      "paragraph_4": "This is also a place for people to find these kinds of services to have their items shipped to other countries for cheaper than what they can find else where.",
+      "responsible_for": "I was responsible for:",
+      "responsible_for_1": "Design",
+      "responsible_for_2": "Development (Frontend and backend)",
+      "responsible_for_3": "Hosting and monitoring",
+      "link_text": "BagageVoyage",
+      "link_description": "Transportation services between Tunisia & Europe"
+    }
+  },
+  "toolbox": {
+    "title": "My toolbox"
+  },
+  "about": {
+    "title": "About me",
+    "paragraph_1": "A full stack web developer based in Tunisia. I have been designing and developing websites for the last 5 years where I delivered professional websites of all kinds.",
+    "paragraph_2": "I am on the journey to find the balance of travelling and working.",
+    "join_my_newsletter": "Join my newsletter",
+    "join_my_newsletter_description": "I share insights, thoughts and new discoveries every week through my newsletter",
+    "your_email": "Your email",
+    "dont_worry_i_hate_spam_too": "Don't worry, I won't spam you. I hate spam as much as you do.",
+    "subscribe": "Subscribe",
+    "success": "Success!",
+    "success_description": "You are now subscribed to the newsletter.",
+    "error": "Error!",
+    "error_description": "An error occurred. Please try again."
+  }
+}

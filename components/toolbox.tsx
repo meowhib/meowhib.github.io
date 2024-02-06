@@ -69,10 +69,10 @@ const toolbox = [
   // },
 ];
 
-export default function Toolbox() {
+export default function Toolbox({ dict }: { dict: any }) {
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">My toolbox</h1>
+      <h1 className="text-2xl font-bold">{dict?.toolbox?.title}</h1>
       <div className="w-full grid grid-cols-3 md:grid-cols-5 gap-8">
         {toolbox.map((tool) => (
           <div key={tool.name} className="flex flex-col space-y-4">

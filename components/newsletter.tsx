@@ -22,7 +22,7 @@ const formSchema = z.object({
   email: z.string().min(1).max(255),
 });
 
-export default function NewsletterForm() {
+export default function NewsletterForm({ dict }: { dict: any }) {
   const [status, setStatus] = useState<
     "idle" | "error" | "success" | "pending"
   >("idle");
@@ -58,19 +58,18 @@ export default function NewsletterForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="Your email" {...field} />
+                <Input placeholder={dict?.about?.your_email} {...field} />
               </FormControl>
               <FormDescription>
-                Don&apos;t worry, I won&apos;t spam you. I hate spam as much as
-                you do.
+                {dict?.about?.dont_worry_i_hate_spam_too}
               </FormDescription>
               {(status === "success" && (
                 <div
                   className="bg-green-100 border-l-4 border-green-500 text-green-700 p-4"
                   role="alert"
                 >
-                  <p className="font-bold">Success</p>
-                  <p>You are now subscribed to the newsletter.</p>
+                  <p className="font-bold">{dict?.about?.success}</p>
+                  <p>{dict?.about?.success_description}</p>
                 </div>
               )) ||
                 (status === "error" && (
@@ -78,8 +77,8 @@ export default function NewsletterForm() {
                     className="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4"
                     role="alert"
                   >
-                    <p className="font-bold">Error</p>
-                    <p>Something wrong happened.</p>
+                    <p className="font-bold">{dict?.about?.error}</p>
+                    <p>{dict?.about?.error_description}</p>
                   </div>
                 ))}
 
@@ -89,7 +88,7 @@ export default function NewsletterForm() {
         />
         <Button type="submit" aria-disabled={pending} disabled={pending}>
           {pending && <Loader2 className="animate-spin mr-2" size={16} />}
-          Subscribe
+          {dict?.about?.subscribe}
         </Button>
       </form>
     </Form>
