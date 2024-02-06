@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 export const metadata: Metadata = {
   title: "Mouhib Ben nasser | Meowhib",
   description: "Mouhib Ben Nasser's personal website",
-  metadataBase: new URL("https://mouhib.com"),
+  metadataBase: new URL("https://meowhib.com"),
   alternates: {
     canonical: "/",
     languages: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    images: "/opengraph-image.png",
+    images: "/twitter-image.png",
   },
 };
 
