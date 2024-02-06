@@ -16,7 +16,7 @@ export default function Hero() {
             improve visitors into clients for the last 5 years.
           </p>
           <div>
-            <Link href={"mailto:mouhibenns@gmail.com?subject=Contact"}>
+            <Link href={"mailto:contact@meowhib.com?subject=Contact"}>
               <Button variant="default" size="lg">
                 Let&apos;s talk
               </Button>

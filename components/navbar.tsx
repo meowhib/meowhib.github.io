@@ -36,7 +36,7 @@ export default function Navbar() {
             ))}
           </div>
           <div>
-            <Link href={"mailto:mouhibenns@gmail.com?subject=Contact"}>
+            <Link href={"mailto:contact@meowhib.com?subject=Talk"}>
               <Button variant="default" size="sm" type="submit">
                 Contact
               </Button>
